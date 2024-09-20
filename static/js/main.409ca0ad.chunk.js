@@ -1157,7 +1157,7 @@
             {
               description: "Weightlifting",
               institution:
-                "I got into lifting since 2023. Loved it since the moment I started. My current PRs are, Deadlift : 245 lbs Squat : 205 lbs Bench press : 85 lbs",
+                "I got into lifting in 2023. Loved it since the moment I started. My current PRs are, Deadlift : 245 lbs Squat : 205 lbs Bench press : 85 lbs",
               name: "",
             },
             {
