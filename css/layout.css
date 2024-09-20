@@ -229,7 +229,6 @@ ul#nav li.current a {
   color: #7a7a7a;
 }
 #about .profile-pic {
-  position: relative;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -691,10 +690,11 @@ call-to-action .button {
   background-attachment: fixed;
 
   position: relative;
-  max-height: 400px;
-  min-height: 400px;
+
+  height: 100%;
   width: 100%;
   overflow: hidden;
+  padding-bottom: 24px;
 }
 
 #outreach a {
@@ -719,10 +719,13 @@ call-to-action .button {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
-  float: right;
+  float: none;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: -10px;
 }
 #outreach .header-col {
-  padding-top: 9px;
+  padding-top: 10px;
 }
 #outreach .header-col h1:before {
   font-family: "FontAwesome";
@@ -747,15 +750,15 @@ call-to-action .button {
 #outreach blockquote p {
   font-family: "librebaskerville-italic", serif;
   padding: 0;
-  font-size: 24px;
-  line-height: 48px;
+  font-size: 18px;
+  line-height: 36px;
   color: #fff;
 }
 #outreach .inst {
   font-family: "librebaskerville-italic", serif;
   padding: 0;
-  font-size: 18px;
-  line-height: 33px;
+  font-size: 15px;
+  line-height: 27px;
   color: #fff;
 }
 #outreach blockquote cite {

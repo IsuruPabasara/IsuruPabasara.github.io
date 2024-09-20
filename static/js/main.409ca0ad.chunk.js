@@ -781,20 +781,17 @@
                 return r.a.createElement(
                   "section",
                   { id: "outreach" },
+                  r.a.createElement("h1", null, "Other interests"),
+                  r.a.createElement("hr", null),
                   r.a.createElement(
                     "div",
-                    { className: "text-container" },
+                    null,
                     r.a.createElement(
                       "div",
-                      { className: "row" },
+                      { className: "text-container" },
                       r.a.createElement(
                         "div",
-                        { className: "two columns header-col" },
-                        r.a.createElement("h1", null, "Other interests")
-                      ),
-                      r.a.createElement(
-                        "div",
-                        { className: "ten columns flex-container" },
+                        { className: "twelve columns flex-container" },
                         r.a.createElement(
                           "div",
                           { className: "flexslider" },
