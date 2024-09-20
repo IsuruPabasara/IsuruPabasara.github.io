@@ -100,7 +100,7 @@
                             "About"
                           )
                         ),
-                        r.a.createElement(
+                        /* r.a.createElement(
                           "li",
                           null,
                           r.a.createElement(
@@ -108,14 +108,14 @@
                             { className: "smoothscroll", href: "#resume" },
                             "Resume"
                           )
-                        ),
+                        ), */
                         r.a.createElement(
                           "li",
                           null,
                           r.a.createElement(
                             "a",
                             { className: "smoothscroll", href: "#portfolio" },
-                            "Works"
+                            "Work"
                           )
                         ),
                         r.a.createElement(
@@ -124,7 +124,7 @@
                           r.a.createElement(
                             "a",
                             { className: "smoothscroll", href: "#outreach" },
-                            "Outreach"
+                            "Other Interests"
                           )
                         )
                       )
@@ -141,11 +141,41 @@
                           e.name
                         ),
                         r.a.createElement(
-                          "h3",
-                          {
-                            style: { color: "#fff", fontFamily: "sans-serif " },
-                          },
-                          "I am a full-stack developer and software engineer who builds user-friendly and scalable applications. In my free time I like to cook and read mystery novels."
+                          "h4",
+                          { className: "responsive-headline" },
+                          e.email
+                        ),
+                        r.a.createElement(
+                          "div",
+                          { className: "row download" },
+                          r.a.createElement(
+                            "div",
+                            { className: "twelve columns" },
+                            r.a.createElement(
+                              "div",
+                              { className: "download-button" },
+                              r.a.createElement(
+                                "ul",
+                                { className: "button" },
+                                r.a.createElement(
+                                  "li",
+                                  null,
+                                  r.a.createElement(
+                                    "a",
+                                    { href: "/reports/cv.pdf", download: !0 },
+                                    r.a.createElement(
+                                      "span",
+                                      null,
+                                      r.a.createElement("i", {
+                                        className: "fa fa-download",
+                                      }),
+                                      "\xa0 Download Resume"
+                                    )
+                                  )
+                                )
+                              )
+                            )
+                          )
                         ),
                         r.a.createElement("hr", null),
                         r.a.createElement(
@@ -243,27 +273,11 @@
                     r.a.createElement(
                       "div",
                       { className: "nine columns main-col" },
-                      r.a.createElement("h2", null, "About Me"),
+                      r.a.createElement("h2", null, "Hello!"),
                       r.a.createElement(
                         "p",
                         null,
-                        "Hello! I am an Electrical Engineering masters students with a focus on Biomedical Engineering. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Deppressive Disorder(MDD) with Dr.Deborah Won. My research lab is aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music enough to label myself an amatuer singer and also dabble in weightlifting."
-                      ),
-                      r.a.createElement(
-                        "div",
-                        { className: "row" },
-                        r.a.createElement(
-                          "div",
-                          { className: "columns contact-details" },
-                          r.a.createElement("h2", null, "Contact Details"),
-                          r.a.createElement(
-                            "p",
-                            { className: "address" },
-                            r.a.createElement("span", null, e.name),
-                            r.a.createElement("br", null),
-                            r.a.createElement("span", null, e.email)
-                          )
-                        )
+                        "I am an Electrical Engineering masters students with a focus on Biomedical Engineering. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Deppressive Disorder(MDD). My research lab is aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
                       )
                     )
                   )
@@ -312,7 +326,8 @@
               key: "render",
               value: function () {
                 var e = this.props.resumeData;
-                return r.a.createElement(
+                return r.a.createElement("hr", null);
+                /* return r.a.createElement(
                   "section",
                   { id: "resume" },
                   r.a.createElement(
@@ -463,40 +478,8 @@
                         )
                       )
                     )
-                  ),
-                  r.a.createElement(
-                    "div",
-                    { className: "row download" },
-                    r.a.createElement(
-                      "div",
-                      { className: "twelve columns" },
-                      r.a.createElement(
-                        "div",
-                        { className: "download-button" },
-                        r.a.createElement(
-                          "ul",
-                          { className: "button" },
-                          r.a.createElement(
-                            "li",
-                            null,
-                            r.a.createElement(
-                              "a",
-                              { href: "/reports/cv.pdf", download: !0 },
-                              r.a.createElement(
-                                "span",
-                                null,
-                                r.a.createElement("i", {
-                                  className: "fa fa-download",
-                                }),
-                                "\xa0 Download Resume"
-                              )
-                            )
-                          )
-                        )
-                      )
-                    )
                   )
-                );
+                ); */
               },
             },
           ]),
@@ -690,7 +673,7 @@
                       r.a.createElement(
                         "h1",
                         null,
-                        "Check Out Some of My Works."
+                        "Check Out Some of My Work."
                       ),
                       r.a.createElement(
                         "div",
@@ -807,7 +790,7 @@
                       r.a.createElement(
                         "div",
                         { className: "two columns header-col" },
-                        r.a.createElement("h1", null, "Outreach")
+                        r.a.createElement("h1", null, "Other interests")
                       ),
                       r.a.createElement(
                         "div",
@@ -832,7 +815,37 @@
                                       { className: "inst" },
                                       e.institution
                                     ),
-                                    r.a.createElement("cite", null, e.name)
+                                    r.a.createElement("cite", null, e.name),
+                                    e.link1 &&
+                                      r.a.createElement(
+                                        r.a.Fragment,
+                                        null,
+                                        r.a.createElement(
+                                          "a",
+                                          {
+                                            href: e.link1,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                          },
+                                          "External link"
+                                        ),
+                                        r.a.createElement("br", null)
+                                      ),
+                                    e.link2 &&
+                                      r.a.createElement(
+                                        r.a.Fragment,
+                                        null,
+                                        r.a.createElement(
+                                          "a",
+                                          {
+                                            href: e.link2,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                          },
+                                          "External link"
+                                        ),
+                                        r.a.createElement("br", null)
+                                      )
                                   )
                                 );
                               })
@@ -941,6 +954,7 @@
         })(n.Component),
         R = {
           name: "Isuru Rajapakshe",
+          email: "rmisur@gmail.com",
           socialLinks: [
             {
               name: "linkedin",
@@ -951,11 +965,6 @@
               name: "github",
               url: "https://github.com/IsuruPabasara",
               className: "fa fa-github",
-            },
-            {
-              name: "twitter",
-              url: "https://twitter.com/IsuruRaj/",
-              className: "fa fa-twitter",
             },
           ],
           email: "rmisur@gmail.com",
@@ -1001,6 +1010,47 @@
             { skillname: "C++(Arduino)", level: 80 },
           ],
           portfolio: [
+            {
+              name: "rTMS and EEG Spectral Changes",
+              id: "rtms",
+              shortDescription:
+                "2023 Dec. - Present. | Under guidance of Dr. Deborah Won",
+              description:
+                "rTMS, or repetitive transcranial magnetic stimulation, is a new treatment method used to stimulate the brain using magnetic pulses to treat mental health conditions like depression, anxiety, and OCD. Currently, rTMS therapy involves 36 sessions spread out over 6 weeks. Patients complete questionnaires before the first session, at the midpoint, and after the final session to assess treatment effectiveness.  However, these questionnaires are subjective and time-consuming. My goal is to find an objective measure of depression levels in patients. I collected EEG readings from 8 depression patients undergoing treatment at a Brain Stim Center and their MADRS scores(A questionnaire-based scoring for levels of depression). My focus is on coherence, which measures the similarity of electrical signals between two electrodes. I aimed to determine if changes in coherence were correlated with changes in MADRS scores. I considered specific brain signal bandwidths, delta, theta, alpha, beta, and gamma when analyzing. The most significant results I obtained are as follows: coherence is positively correlated throughout with MADRS scores in the gamma range and negatively correlated in the delta range. Additionally, coherence is positively correlated with GAD-7 scores in the gamma range. The results indirectly mean that people with depression have high coherence in gamma signals and low coherence in the delta signals. And people with higher levels of anxiety have higher coherence in gamma signals.",
+              report: "reports/rtms.pdf",
+              img1url: "images/portfolio/rtms-1.png",
+            },
+            {
+              name: "The Conductor",
+              id: "conductor",
+              shortDescription: "2024 Dec. - 2024 Aug.",
+              description:
+                "This project was done as part of the BOOST program where I mentored 5 undergraduates, guiding them through the successful completion of an engineering project designed to benefit the community. In my role, I oversaw the entire process, from concept to final product, focusing on the design and development of a specialized rehabilitation instrument. This device, ultimately donated to the CSULA Mobility Center, was created to provide positive reinforcement for patients undergoing therapy to restore arm and hand movement. The instrument utilized a gyroscope to capture precise 3D coordinates of arm movements, while flex sensors were integrated to monitor finger motions, ensuring comprehensive tracking of patient progress. Through this technology, patients received real-time feedback during their rehabilitation, motivating them and supporting their recovery. This project not only enhanced the students' engineering skills but also made a meaningful impact on the community by improving rehabilitation outcomes for patients.",
+              github: "https://github.com/IsuruPabasara/TheConductor",
+              video: "https://www.youtube.com/watch?v=o3slCzBoATE",
+              img1url: "images/portfolio/conductor-1.jpg",
+            },
+            {
+              name: "Coffee Shop Seating",
+              id: "coffee",
+              shortDescription: "2024 Mar. - 2024 May.",
+              description:
+                "I developed an innovative automated seating system designed to enhance customer experience in a coffee shop by efficiently tracking seat availability using body heat sensors. The system automatically detects which seats are occupied and which are free, allowing customers to be seamlessly directed to available seating as they arrive. To create a fully wireless and low-power solution, I used the nRF52 development kit for the seats (as peripheral devices) and a laptop as the central device for managing Bluetooth Low Energy (BLE) communication. This wireless setup enabled smooth, energy-efficient data transfer between the seats and the central system, ensuring scalability and minimal power consumption, which is critical in a commercial environment. Additionally, I developed a simple yet effective graphical user interface (GUI) using Kivy, providing visual feedback for both customers and staff. This user-friendly interface made it easy to see which seats were available in real-time, further enhancing the efficiency of the seating system.",
+              github: "https://github.com/IsuruPabasara/CoffeeShop",
+              img1url: "images/portfolio/coffee-1.jpeg",
+              img2url: "images/portfolio/coffee-2.jpg",
+              img3url: "images/portfolio/coffee-3.JPG",
+            },
+            {
+              name: "Lip Read",
+              id: "lip",
+              shortDescription: "2023 Nov. - 2023 Dec.",
+              description:
+                "I developed a system utilizing Gated Recurrent Units (GRUs) to predict words spoken in a series of soundless videos, treating the task as a classification problem with a predefined vocabulary of 10 words. This project was completed as part of the Neural Networks module, focusing on leveraging advanced machine learning techniques to solve a real-world problem. The core of the solution was based on GRUs, a type of recurrent neural network (RNN) known for their ability to capture temporal dependencies in sequential data. By using GRUs, I aimed to extract and analyze patterns in facial movements and lip syncs, correlating them with specific words from the target vocabulary. The model was trained on a dataset of silent videos, each labeled with the corresponding spoken word, and the best-performing pretrained model was made available for download for further experimentation or use. The system achieved a 60% accuracy in word prediction for the 10-word vocabulary.",
+              github: "https://github.com/IsuruPabasara/LipRead",
+              img1url: "images/portfolio/lip-1.png",
+              report: "reports/lip.pdf",
+            },
             {
               name: "Non-Intrusive Power Monitor",
               id: "fyp",
@@ -1089,26 +1139,35 @@
           ],
           outreach: [
             {
-              description: "Committee member",
-              institution: "Electronic Club , of University of Moratuwa",
-              name: "2019 - 2020",
-            },
-            {
-              description: "Treasurer",
-              institution: "IEEE IAS Student Branch, University of Moratuwa",
-              name: "2019 - 2020",
-            },
-            {
-              description: "Department Representative",
+              description:
+                "Vice President, Bio Medical Engineering Society , CSULA",
               institution:
-                "Department of Electronic and Telecommunication Engineering, University of Moratuwa",
-              name: "2018 - 2019",
+                "As the vice president of the BMES club at CSULA, I take great pleasure in meeting with and encouraging students to explore the exciting fields of biomedical engineering and engineering as a whole. Engaging with fellow students and organizing club activities has played a crucial role in helping me integrate into the community, especially as an international student.",
+              name: "2024",
             },
             {
-              description: "Rotoractor",
+              description: "Music",
               institution:
-                "Rotoract Club University of Moratuwa Student Branch",
+                "Music has been a passion of mine since I was a teenager, and it’s through music that I’ve met most of my closest friends. While I don’t claim to be particularly skilled, singing has always been one of my best outlets for stress. It’s something that brings me joy and helps me unwind, no matter the circumstances.",
+              name: "Some of my music recordings are below",
+              link1: "https://www.youtube.com/watch?v=wdTZ40Rt8pQ",
+              link2:
+                "https://www.youtube.com/watch?v=iTDiLxCpQTc&list=PLWY_qnypuYjxX5r8vofXc7xdOZqCGZEhU&index=19",
+            },
+            {
+              description: "Weightlifting",
+              institution:
+                "I got into lifting since 2023. Loved it since the moment I started. My current PRs are, Deadlift : 245 lbs Squat : 205 lbs Bench press : 85 lbs",
+              name: "",
+            },
+            {
+              description:
+                "Rotoractor, Rotoract Club University of Moratuwa Student Branch",
+              institution:
+                "Most of my volunteer work in Sri Lanka was done through the influence of Rotaract. I spearheaded Inspirer(sub project of Grama Prabodhaya), which targeted Engligh education of underprivilaged school children. This project greatly broadened my horizons as an individual, seeing the hardships some children face to get the most basic of education.",
               name: "2017 - 2019",
+              link1:
+                "https://www.sundaytimes.lk/170604/plus/moratuwa-uni-rotaract-club-helps-rangulla-villagers-realise-their-dreams-242984.html",
             },
           ],
         };

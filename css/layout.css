@@ -32,9 +32,8 @@ body {
 
 header {
   position: relative;
-  height: 800px;
-  min-height: 500px;
   width: 100%;
+  max-height: 20%;
   background: #161415 url(../images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -206,8 +205,8 @@ ul#nav li.current a {
 
 #about {
   background: #030f0f;
-  padding-top: 96px;
-  padding-bottom: 66px;
+  padding-top: 2%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -231,12 +230,10 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 200px;
-  height: 200px;
   border-radius: 100%;
 }
 #about .contact-details {
-  width: 41.66667%;
+  float: right;
 }
 #about .download {
   width: 58.33333%;
@@ -323,13 +320,12 @@ ul#nav li.current a {
 /*	Skill Bars
 /*----------------------------------------------*/
 .download-button {
-  width: 95%;
-  float: left;
+  float: none;
+  margin: 0 auto;
+  width: 100%;
   padding: 0;
-  text-align: left;
 }
 .download-button .button {
-  float: right;
   list-style: none;
   padding-bottom: 0;
 }
@@ -695,13 +691,28 @@ call-to-action .button {
   background-attachment: fixed;
 
   position: relative;
-  min-height: 200px;
+  max-height: 400px;
+  min-height: 400px;
   width: 100%;
   overflow: hidden;
 }
+
+#outreach a {
+  font: 14px/21px "opensans-bold", sans-serif;
+}
+#outreach a:link {
+  color: #ffffff;
+}
+#outreach a:visited {
+  color: #ffffff !important;
+}
+#outreach a:hover {
+  color: #669f88 !important;
+}
+
 #outreach .text-container {
-  padding-top: 96px;
-  padding-bottom: 66px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #outreach h1 {
   font: 18px/24px "opensans-bold", sans-serif;
