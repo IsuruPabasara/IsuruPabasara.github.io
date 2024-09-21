@@ -675,6 +675,7 @@
                         null,
                         "Check Out Some of My Work."
                       ),
+                      r.a.createElement("h4", null, "(Click to learn more)"),
                       r.a.createElement(
                         "div",
                         {
@@ -828,7 +829,7 @@
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                           },
-                                          "External link"
+                                          e.label1
                                         ),
                                         r.a.createElement("br", null)
                                       ),
@@ -843,7 +844,7 @@
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                           },
-                                          "External link"
+                                          e.label2
                                         ),
                                         r.a.createElement("br", null)
                                       )
@@ -1154,6 +1155,8 @@
               link1: "https://www.youtube.com/watch?v=wdTZ40Rt8pQ",
               link2:
                 "https://www.youtube.com/watch?v=iTDiLxCpQTc&list=PLWY_qnypuYjxX5r8vofXc7xdOZqCGZEhU&index=19",
+              label1: "Click to visit Radioactive cover",
+              label2: "Click to visit Sinhala Mashup",
             },
             {
               description: "Weightlifting",
@@ -1169,6 +1172,7 @@
               name: "2017 - 2019",
               link1:
                 "https://www.sundaytimes.lk/170604/plus/moratuwa-uni-rotaract-club-helps-rangulla-villagers-realise-their-dreams-242984.html",
+              label1: "Click to visit news article about Grama Prabodhaya",
             },
           ],
         };
