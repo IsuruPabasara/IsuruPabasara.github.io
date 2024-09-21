@@ -817,6 +817,21 @@
                                       { className: "inst" },
                                       e.institution
                                     ),
+                                    r.a.createElement(
+                                      "p",
+                                      { className: "list" },
+                                      e.list1
+                                    ),
+                                    r.a.createElement(
+                                      "p",
+                                      { className: "list" },
+                                      e.list2
+                                    ),
+                                    r.a.createElement(
+                                      "p",
+                                      { className: "list" },
+                                      e.list3
+                                    ),
                                     r.a.createElement("cite", null, e.name),
                                     e.link1 &&
                                       r.a.createElement(
@@ -1161,7 +1176,10 @@
             {
               description: "Weightlifting",
               institution:
-                "I got into lifting in 2023. Loved it since the moment I started. My current PRs are, Deadlift : 245 lbs Squat : 205 lbs Bench press : 85 lbs",
+                "I got into lifting in 2023. Loved it since the moment I started. My current PRs are :",
+              list1: "Deadlift : 245 lbs",
+              list2: "Squat : 205 lbs",
+              list3: "Bench press : 85 lbs",
               name: "",
             },
             {

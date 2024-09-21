@@ -762,6 +762,15 @@ call-to-action .button {
   line-height: 36px;
   color: #fff;
 }
+
+#outreach .list {
+  font-family: "librebaskerville-italic", serif;
+  padding: 0;
+  font-size: 15px;
+  line-height: 0px;
+  color: #fff;
+}
+
 #outreach .inst {
   font-family: "librebaskerville-italic", serif;
   padding: 0;
