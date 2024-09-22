@@ -1157,7 +1157,7 @@
           outreach: [
             {
               description:
-                "Vice President, Bio Medical Engineering Society , CSULA",
+                "Vice President, Bio Medical Engineering Society, CSULA",
               institution:
                 "As the vice president of the BMES club at CSULA, I take great pleasure in meeting with and encouraging students to explore the exciting fields of biomedical engineering and engineering as a whole. Engaging with fellow students and organizing club activities has played a crucial role in helping me integrate into the community, especially as an international student.",
               name: "2024",
