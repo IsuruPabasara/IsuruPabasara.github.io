@@ -1118,7 +1118,8 @@
               shortDescription: "2018 Aug.",
               description:
                 "This project was done by a team of four. The aim of the project was to build a temperature controller for a open coil hot plate so as to prevent overheating and energy wastage. We designed the circuit using triacs and PT100 sensor to suit the Sri Lankan current supply. I helped design the circuit and I designed the eclosure using solidworks.",
-              report: "reports/hotplate.pdf",
+              report:
+                "https://www.researchgate.net/publication/331471481_Hot_Plate_Temperature_Controller",
               img1url: "images/portfolio/hotplate-1.png",
               img2url: "images/portfolio/hotplate-2.png",
             },
