@@ -1193,6 +1193,19 @@
                 "https://www.sundaytimes.lk/170604/plus/moratuwa-uni-rotaract-club-helps-rangulla-villagers-realise-their-dreams-242984.html",
               label1: "Click to visit news article about Grama Prabodhaya",
             },
+            {
+              description:
+                "2024 Spring CSU Biotech Student Travel Grant Program",
+              institution:
+                "My research proposal was selected for funding from the 2024 Spring CSU Biotech Student Travel Grant Program. The peer review committee reviewed 15 faculty and 15 student proposals from 12 campuses and awarded 18 travel grants, totaling $26,044.00.",
+              name: "July 2023",
+            },
+            {
+              description: "Dean's List Placements",
+              institution:
+                "I was a dean's list awardee for my 1,6,7 and 8th semester during my undergraduate program at University of Moratuwa, Sri Lanka",
+              name: "2016-2021",
+            },
           ],
         };
       function I(e) {
