@@ -277,7 +277,7 @@
                       r.a.createElement(
                         "p",
                         null,
-                        "I am an Electrical Engineering masters students with a focus on Biomedical Engineering. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Deppressive Disorder(MDD). My research lab is aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
+                        "I am an Electrical Engineering masters students with a focus on Biomedical Engineering. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). My research lab is aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
                       )
                     )
                   )
