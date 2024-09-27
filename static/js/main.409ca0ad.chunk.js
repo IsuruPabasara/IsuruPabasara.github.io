@@ -266,7 +266,7 @@
                       { className: "three columns" },
                       r.a.createElement("img", {
                         className: "profile-pic",
-                        src: "images/profilepic.jpg",
+                        src: "images/profilepic.jpeg",
                         alt: "",
                       })
                     ),
