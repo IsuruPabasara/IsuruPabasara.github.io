@@ -194,10 +194,12 @@ ul#nav li a {
 
 ul#nav li a:active {
   background-color: transparent !important;
-}
-ul#nav li.current a {
   color: #f1a208;
 }
+
+/* ul#nav li.current a {
+  color: #f1a208;
+} */
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -205,7 +207,7 @@ ul#nav li.current a {
 
 #about {
   background: #030f0f;
-  padding-top: 2%;
+  padding-top: 5%;
   width: 100%;
   overflow: hidden;
 }
@@ -703,6 +705,7 @@ call-to-action .button {
   width: 100%;
   overflow: hidden;
   padding-bottom: 24px;
+  padding-top: 5%;
 }
 
 #outreach a {
@@ -719,6 +722,7 @@ call-to-action .button {
 }
 
 #outreach .text-container {
+  background: #01030396;
   padding-top: 20px;
   padding-bottom: 20px;
 }
