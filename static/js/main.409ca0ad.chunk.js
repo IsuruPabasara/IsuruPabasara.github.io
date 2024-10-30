@@ -1034,7 +1034,6 @@
                 "2023 Dec. - Present. | Under guidance of Dr. Deborah Won",
               description:
                 "rTMS, or repetitive transcranial magnetic stimulation, is a new treatment method used to stimulate the brain using magnetic pulses to treat mental health conditions like depression, anxiety, and OCD. Currently, rTMS therapy involves 36 sessions spread out over 6 weeks. Patients complete questionnaires before the first session, at the midpoint, and after the final session to assess treatment effectiveness.  However, these questionnaires are subjective and time-consuming. My goal is to find an objective measure of depression levels in patients. I collected EEG readings from 28 patients with deppression undergoing treatment at a Brain Stim Center and their MADRS scores(A questionnaire-based scoring for levels of depression). My focus is on spectral analysis of the EEG readings. I aimed to determine if changes in the EEG spectrum were correlated with changes in MADRS scores. I considered specific brain signal bandwidths, delta, theta, alpha, beta, and gamma when analyzing.",
-              report: "reports/rtms.pdf",
               img1url: "images/portfolio/rtms-1.jpeg",
             },
             {
