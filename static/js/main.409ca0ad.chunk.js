@@ -277,7 +277,7 @@
                       r.a.createElement(
                         "p",
                         null,
-                        "I am an Electrical Engineering masters students with a focus on Biomedical Engineering. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). My research lab is aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
+                        "I am an Electrical Engineering masters student at Cal State LA. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). My research lab is aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
                       )
                     )
                   )
@@ -1178,7 +1178,7 @@
               description: "Weightlifting",
               institution:
                 "I got into lifting in 2023. Loved it since the moment I started. My current PRs are :",
-              list1: "Deadlift : 245 lbs",
+              list1: "Deadlift : 275 lbs",
               list2: "Squat : 205 lbs",
               list3: "Bench press : 85 lbs",
               name: "",
