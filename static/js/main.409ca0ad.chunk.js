@@ -273,11 +273,11 @@
                     r.a.createElement(
                       "div",
                       { className: "nine columns main-col" },
-                      r.a.createElement("h2", null, "Hello!"),
+                      r.a.createElement("h2", null, "About me"),
                       r.a.createElement(
                         "p",
                         null,
-                        "I am an Electrical Engineering masters student at Cal State LA. I work for the IntelliMed lab at CSULA under the guidance of Dr. Deborah Won. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). I am aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
+                        "I am an Electrical Engineering masters student at Cal State LA. I work for the IntelliMed lab at CSULA under my advisor Dr. Deborah Won. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). I aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
                       )
                     )
                   )
