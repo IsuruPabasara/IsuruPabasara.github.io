@@ -162,7 +162,10 @@
                                   null,
                                   r.a.createElement(
                                     "a",
-                                    { href: "/reports/cv.pdf", download: !0 },
+                                    {
+                                      href: "/reports/Isuru_Rajapakshe_Resume.pdf",
+                                      download: !0,
+                                    },
                                     r.a.createElement(
                                       "span",
                                       null,
@@ -277,7 +280,7 @@
                       r.a.createElement(
                         "p",
                         null,
-                        "I am an Electrical Engineering masters student at Cal State LA. I work for the IntelliMed lab at CSULA under my advisor Dr. Deborah Won. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). I aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
+                        "I am an Electrical Engineering masters student at Cal State LA. I work for the IntelliMed lab at CSULA advised Dr. Deborah Won. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). I aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
                       )
                     )
                   )
