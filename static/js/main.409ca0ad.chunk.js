@@ -100,24 +100,25 @@
                             "About"
                           )
                         ),
-                        /* r.a.createElement(
-                          "li",
-                          null,
-                          r.a.createElement(
-                            "a",
-                            { className: "smoothscroll", href: "#resume" },
-                            "Resume"
-                          )
-                        ), */
                         r.a.createElement(
                           "li",
                           null,
                           r.a.createElement(
                             "a",
                             { className: "smoothscroll", href: "#portfolio" },
-                            "Work"
+                            "Projects"
                           )
                         ),
+                        r.a.createElement(
+                          "li",
+                          null,
+                          r.a.createElement(
+                            "a",
+                            { className: "smoothscroll", href: "#resume" },
+                            "Experience"
+                          )
+                        ),
+
                         r.a.createElement(
                           "li",
                           null,
@@ -276,11 +277,23 @@
                     r.a.createElement(
                       "div",
                       { className: "nine columns main-col" },
-                      r.a.createElement("h2", null, "About me"),
+                      r.a.createElement("h2", null, "About Me"),
                       r.a.createElement(
                         "p",
                         null,
-                        "I am an Electrical Engineering masters student at Cal State LA. I work for the IntelliMed lab at CSULA advised Dr. Deborah Won. Currently I am studying the effects of repetitive Transcranial Magnetic Stimultion(rTMS) on EEG readings of people with Major Depressive Disorder(MDD). I aiming for an objective biomarker for MDD that is easily accesible, so that doctors and patients can have an easier time in identifying mental diseases. I love doing projects that broaden my understanding of technology. You can find some of my projects that I am most proud of below. Besides work, I enjoy music and also dabble in weightlifting."
+                        "I build systems that sense, interpret, and interact with the world.",
+                        r.a.createElement("br"),
+                        r.a.createElement("br"),
+
+                        "My background started in rTMS neuroscience research and eventually led me into developing next-generation LiDAR systems as a Development Engineer. Somewhere along the way, I became really interested in the overlap between perception, computation, and engineering — from understanding the human brain to helping machines make sense of the world around them.",
+                        r.a.createElement("br"),
+                        r.a.createElement("br"),
+
+                        "Most of my work lives around signal processing, sensing technologies, embedded systems, and experimental hardware, with a background in software development that still heavily shapes how I approach problem solving. I enjoy building things that feel a little futuristic and solving problems that sit between code, electronics, and real-world physics.",
+                        r.a.createElement("br"),
+                        r.a.createElement("br"),
+
+                        "Outside of engineering, I enjoy strength training, live music and the occasional psychological thriller."
                       )
                     )
                   )
@@ -329,11 +342,11 @@
               key: "render",
               value: function () {
                 var e = this.props.resumeData;
-                return r.a.createElement("hr", null);
-                /* return r.a.createElement(
+                //return r.a.createElement("hr", null);
+                return r.a.createElement(
                   "section",
                   { id: "resume" },
-                  r.a.createElement(
+                  /* r.a.createElement(
                     "div",
                     { className: "row education" },
                     r.a.createElement(
@@ -385,7 +398,7 @@
                           );
                         })
                     )
-                  ),
+                  ), */
                   r.a.createElement(
                     "div",
                     { className: "row work" },
@@ -395,7 +408,7 @@
                       r.a.createElement(
                         "h1",
                         null,
-                        r.a.createElement("span", null, "Work")
+                        r.a.createElement("span", null, "Experience")
                       )
                     ),
                     r.a.createElement(
@@ -406,7 +419,7 @@
                           return r.a.createElement(
                             "div",
                             {
-                              style: { marginBottom: 40 },
+                              style: { marginBottom: 15 },
                               className: "row item",
                             },
                             r.a.createElement(
@@ -430,6 +443,11 @@
                                   e.MonthOfLeaving,
                                   " ",
                                   e.YearOfLeaving
+                                ),
+                                r.a.createElement(
+                                  "p",
+                                  { className: "description" },
+                                  e.Description
                                 )
                               ),
                               e.Achievements &&
@@ -444,8 +462,8 @@
                           );
                         })
                     )
-                  ),
-                  r.a.createElement(
+                  )
+                  /* r.a.createElement(
                     "div",
                     { className: "row skill" },
                     r.a.createElement(
@@ -481,8 +499,8 @@
                         )
                       )
                     )
-                  )
-                ); */
+                  ) */
+                );
               },
             },
           ]),
@@ -557,6 +575,21 @@
                             rel: "noopener noreferrer",
                           },
                           "Go to github repository"
+                        ),
+                        r.a.createElement("br", null)
+                      ),
+                    e.paper &&
+                      r.a.createElement(
+                        r.a.Fragment,
+                        null,
+                        r.a.createElement(
+                          "a",
+                          {
+                            href: e.paper,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                          },
+                          "Go to conference paper"
                         ),
                         r.a.createElement("br", null)
                       ),
@@ -1003,6 +1036,25 @@
           ],
           work: [
             {
+              CompanyName: "SiLC Technoligies, Inc",
+              specialization: "Development Engineer",
+              MonthOfStarting: "Sep",
+              YearOfStarting: "2025",
+              MonthOfLeaving: "Current",
+              Description:
+                "Developed tools and workflows for LiDAR sensing systems involving data processing, calibration, visualization, and system characterization.",
+            },
+            {
+              CompanyName: "California State University, Los Angeles",
+              specialization: "Course Instructor",
+              MonthOfStarting: "May",
+              YearOfStarting: "2025",
+              MonthOfLeaving: "Dec",
+              YearOfLeaving: "2025",
+              Description:
+                'Taught "Introduction to Biomedical Devices", "Digital Logic Laboratory", and "Biomedical Engineering Lab"',
+            },
+            {
               CompanyName:
                 "Insync Information Technologies, Colombo, Sri Lanka",
               specialization: "Software Engineer",
@@ -1010,6 +1062,8 @@
               YearOfStarting: "2021",
               MonthOfLeaving: "Jul",
               YearOfLeaving: "2022",
+              Description:
+                "Led development of a full-stack network automation platform using the MERN stack, contributing to software architecture, frontend development, backend systems, and workflow automation.",
             },
             {
               CompanyName: "Lanka Electronics, Minuwangoda, Sri Lanka",
@@ -1018,6 +1072,8 @@
               YearOfStarting: "2019",
               MonthOfLeaving: "Dec",
               YearOfLeaving: "2019",
+              Description:
+                "Worked on robotic arm control systems involving trajectory planning, welding path implementation, and C#-based control software for a 6-DOF robotic platform.",
             },
           ],
           skillsDescription: "Your skills here",
@@ -1034,10 +1090,11 @@
               name: "rTMS and EEG Spectral Changes",
               id: "rtms",
               shortDescription:
-                "2023 Dec. - Present. | Under guidance of Dr. Deborah Won",
+                "2023 Dec. - 2025 Aug. | Under guidance of Dr. Deborah Won",
               description:
                 "rTMS, or repetitive transcranial magnetic stimulation, is a new treatment method used to stimulate the brain using magnetic pulses to treat mental health conditions like depression, anxiety, and OCD. Currently, rTMS therapy involves 36 sessions spread out over 6 weeks. Patients complete questionnaires before the first session, at the midpoint, and after the final session to assess treatment effectiveness.  However, these questionnaires are subjective and time-consuming. My goal is to find an objective measure of depression levels in patients. I collected EEG readings from 28 patients with deppression undergoing treatment at a Brain Stim Center and their MADRS scores(A questionnaire-based scoring for levels of depression). My focus is on spectral analysis of the EEG readings. I aimed to determine if changes in the EEG spectrum were correlated with changes in MADRS scores. I considered specific brain signal bandwidths, delta, theta, alpha, beta, and gamma when analyzing.",
               img1url: "images/portfolio/rtms-1.jpeg",
+              paper: "https://ieeexplore.ieee.org/abstract/document/11253433",
             },
             {
               name: "The Conductor",
@@ -1159,11 +1216,10 @@
           ],
           outreach: [
             {
-              description:
-                "Vice President, Bio Medical Engineering Society, CSULA",
+              description: "President, Bio Medical Engineering Society, CSULA",
               institution:
-                "As the vice president of the BMES club at CSULA, I take great pleasure in meeting with and encouraging students to explore the exciting fields of biomedical engineering and engineering as a whole. Engaging with fellow students and organizing club activities has played a crucial role in helping me integrate into the community, especially as an international student.",
-              name: "2024",
+                "As the president of the BMES club at CSULA, I took great pleasure in meeting with and encouraging students to explore the exciting fields of biomedical engineering and engineering as a whole. Engaging with fellow students and organizing club activities has played a crucial role in helping me integrate into the community, especially as an international student.",
+              name: "2024-2025",
             },
             {
               description: "Music",
@@ -1171,18 +1227,17 @@
                 "Music has been a passion of mine since I was a teenager, and it’s through music that I’ve met most of my closest friends. While I don’t claim to be particularly skilled, singing has always been one of my best outlets for stress. It’s something that brings me joy and helps me unwind, no matter the circumstances.",
               name: "Some of my music recordings are below",
               link1: "https://www.youtube.com/watch?v=wdTZ40Rt8pQ",
-              link2:
-                "https://www.youtube.com/watch?v=iTDiLxCpQTc&list=PLWY_qnypuYjxX5r8vofXc7xdOZqCGZEhU&index=19",
-              label1: "Click to visit Radioactive cover",
-              label2: "Click to visit Sinhala Mashup",
+              link2: "https://youtu.be/PN1F2PFcJdY?si=YD4ABD2mW4joV83J",
+              label1: "Radioactive by Imagine Dragons - Cover",
+              label2: "Like a woman can by Halestorm - Cover",
             },
             {
-              description: "Weightlifting",
+              description: "Powerlifting",
               institution:
                 "I got into lifting in 2023. Loved it since the moment I started. My current PRs are :",
-              list1: "Deadlift : 275 lbs",
-              list2: "Squat : 205 lbs",
-              list3: "Bench press : 85 lbs",
+              list1: "Deadlift : 305 lbs",
+              list2: "Squat : 255 lbs",
+              list3: "Bench press : 105 lbs",
               name: "",
             },
             {
@@ -1239,8 +1294,8 @@
                   { className: "App" },
                   r.a.createElement(f, { resumeData: R }),
                   r.a.createElement(h, { resumeData: R }),
-                  r.a.createElement(v, { resumeData: R }),
                   r.a.createElement(y, { resumeData: R }),
+                  r.a.createElement(v, { resumeData: R }),
                   r.a.createElement(N, { resumeData: R }),
                   r.a.createElement(j, { resumeData: R })
                 );

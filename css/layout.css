@@ -232,8 +232,19 @@ ul#nav li a:active {
 }
 
 #about .profile-pic {
-  border-radius: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid rgba(122, 122, 122, 0.12);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  margin-top: 30px;
 }
+
+#about .profile-pic:hover {
+  transform: translateY(-2px);
+  border-color: rgba(102, 159, 136, 0.35);
+}
+
 #about .contact-details {
   float: right;
 }
@@ -262,9 +273,9 @@ ul#nav li a:active {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #030f0f;
   padding-top: 90px;
-  padding-bottom: 72px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
@@ -274,20 +285,27 @@ ul#nav li a:active {
 }
 #resume a:hover,
 #resume a:focus {
-  color: #313131;
+  color: #fff;
 }
 
 #resume h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
+  color: #444;
   letter-spacing: 1px;
 }
 #resume h1 span {
   border-bottom: 3px solid #669f88;
-  padding-bottom: 6px;
+  padding-bottom: 1px;
 }
+
 #resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
+  font: 18px/24px "opensans-bold", sans-serif;
+  color: #444;
+}
+
+#resume p {
+  font: 14px/20px "opensans-bold", sans-serif;
 }
 
 #resume .header-col {
@@ -764,7 +782,7 @@ call-to-action .button {
   font-family: "librebaskerville-italic", serif;
   padding: 0;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 16px;
   color: #fff;
 }
 
@@ -870,19 +888,25 @@ call-to-action .button {
   overflow: hidden;
 }
 
-/* Control Nav */
+/* Modern override for FlexSlider dots */
 .flex-control-nav {
-  width: 100%;
-  position: absolute;
-  bottom: -20px;
-  text-align: left;
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: left;
+  gap: 12px;
+
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 10px 0;
 }
+
 .flex-control-nav li {
-  margin: 0 6px;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
+  display: block !important;
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
 }
+
 .flex-control-paging li a {
   width: 12px;
   height: 12px;
