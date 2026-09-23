@@ -146,7 +146,7 @@
                           { className: "responsive-headline" },
                           e.email
                         ),
-                        r.a.createElement(
+                        /*r.a.createElement(
                           "div",
                           { className: "row download" },
                           r.a.createElement(
@@ -180,7 +180,7 @@
                               )
                             )
                           )
-                        ),
+                        ),*/
                         r.a.createElement("hr", null),
                         r.a.createElement(
                           "ul",
